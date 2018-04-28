@@ -219,7 +219,6 @@ macro_rules! __diesel_parse_type_args {
         }
     };
 
-
     // CLOSING_BRACKET
     //
     // Token is >, and we have a non-empty bracket stack.
@@ -244,7 +243,6 @@ macro_rules! __diesel_parse_type_args {
             tokens = ($($tokens)*),
         }
     };
-
 
     // BOUNDS
     //
